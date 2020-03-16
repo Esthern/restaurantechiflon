@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css\estilo.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="stylesheet" href="css\flexboxgrid.min.css">
+
+  </head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="stylesheet" href="css\flexboxgrid.min.css">
+
+    <title>Comida chilena</title>
+    <style>
+      .jumbotron{
+        margin-top: 0;
+        padding-right: 0px;
+        background-image: url("images/chiflon.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        }
+   
+      .img-fluid{
+        max-width: 100%;
+        height: auto;
+      }
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    </style>
+<body>
+     <!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg bg-dark navbar-dark default-color">
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="80px" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tablas.html">Precios</a>
+      </li>
+      <li class="nav-item dropdown text-color-light">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">La Carta
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="menucampo.html">Menú Campo</a>
+          <a class="dropdown-item" href="menumar.html">Menú Mar</a>
+          <a class="dropdown-item" href="menudesierto.html">Menú Desierto</a>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<!--/.Navbar -->   
+      
+
+
+</body>
+
+<div class="row">
+  <div class="container-fluid">
+      <div class="col-sm-12 " >
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img class="img-fluid" src="images/banner4.jpg"  class="d-block" alt="chilena">
+            </div>
+            <div class="carousel-item ">
+              <img class="img-fluid" src="images/banner3.jpg"  class="d-block" alt="comida">
+            </div>
+            <div class="carousel-item ">
+              <img class="img-fluid" src="images/portada3.jpg" class="d-block" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Atrás</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>   
+        </div>  
+        </div>
+           
+        </div>
+  <body>
+    <div class="jumbotron jumbotron-fluid mt-3">
+
+      <div class="container-fluid">
+              <h1 class="display-4 text-danger">Menú Campo </h1>
+             <p class="lead">En el campo no hay wifi,<br> pero seguro que consigues una mejor conexión </p>
+              
+               <p class="lead">
+            </div>
+      </div>
+
+      <!-- Platos menu campo-->
+           
+     <div class="row">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm mt-4 text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Platedada-al-Horno.jpg" class="card-img-top" alt="plateada">
+                    <div class="card-body">
+                      <h5 class="card-title">Plateada al horno</h5>
+                      <p class="card-text">$ 9.990</p>
+                      <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-default border solid " data-toggle="modal" data-target="#exampleModal">
+                      Comprar
+                      </button>
+                       <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Platedada al Horno</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Nombre</label>
+                              <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Correo</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Cantidad</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Confirmar</button>
+                        </div>
+                        </div>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm mt-3">
+                <div class="col-sm mt-3 text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Pastel-de-Choclo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pastel de choclo</h5>
+                          <p class="card-text">$6.990</p>
+                          <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pasteldechoclo">
+                      Comprar
+                      </button>
+
+                       <!-- Modal -->
+                    <div class="modal fade" id="pasteldechoclo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="pasteldechoclo">Pastel de choclo</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Cantidad</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Confirmar</button>
+                      </div>
+                        </div>
+                        </div>
+                     </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm mt-3">
+                <div class="col-sm mt-3 text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Cazuela-de-vacuno.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cazuela de vacuno</h5>
+                          <p class="card-text">8.990</p>
+                          <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#cazueladevacuno">
+                      Comprar
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="cazueladevacuno" tabindex="-1" role="dialog" aria-labelledby="cazueladevacuno" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="cazueladevacuno">Cazuela de vacuno</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Cantidad</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Confirmar</button>
+                      </div>
+                        </div>
+                        </div>
+                     </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </div>
+     <div class="row">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm mt-3 text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/humitas.jpg" class="card-img-top" alt="humitas">
+                    <div class="card-body">
+                      <h5 class="card-title">Humitas</h5>
+                      <p class="card-text">$ 1.200</p>
+                      <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-default border solid" data-toggle="modal" data-target="#humitas">
+                      Comprar
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="humitas" tabindex="-1" role="dialog" aria-labelledby="humitas aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="locos">Humitas</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Cantidad</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Confirmar</button>
+                      </div>
+                        </div>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm mt-3 text-center">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Costillar-ahumado.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Costillar ahumado</h5>
+                          <p class="card-text">$ 12.990</p>
+
+                            
+                          <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      Comprar
+                      </button>
+
+                       <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                        </div>
+                     </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm mt-3 text-center">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/charquican.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Charquican</h5>
+                          <p class="card-text">$ 6.990</p>
+                          <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                      Comprar
+                      </button>
+
+                       <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Charquican</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                        </div>
+                     </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </div>
+     <div class="row">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm mt-3 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/moteconhuesillo.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mote con Huesillo</h5>
+                    <p class="card-text">$1.500</p>
+                    <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-default border solid " data-toggle="modal" data-target="#moteconhuesillo">
+                    Comprar
+                    </button>
+
+                     <!-- Modal -->
+                  <div class="modal fade" id="moteconhuesillo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Mote con Huesillo</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Cantidad</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Confirmar</button>
+                      </div>
+                      </div>
+                      </div>
+                   </div>
+
+
+
+
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm mt-3">
+              <div class="col-sm mt-3 text-center">
+                  <div class="card" style="width: 18rem;">
+                      <img src="images/porotosconmazamorra.jpg" class="card-img-top" alt="porotos">
+                      <div class="card-body">
+                        <h5 class="card-title">Porotos con Mazamorra</h5>
+                        <p class="card-text">$6.990</p>
+                        <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#porotos">
+                    Comprar
+                    </button>
+
+                     <!-- Modal -->
+                  <div class="modal fade" id="porotos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="porotos">Porotos con Mazamorra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Correo</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Cantidad</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                    </div>
+                      </div>
+                      </div>
+                   </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mt-3">
+              <div class="col-sm mt-3 text-center">
+                  <div class="card" style="width: 18rem;">
+                      <img src="images/carbonada.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Carbonada</h5>
+                        <p class="card-text">$4.990</p>
+                        <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#carbonada">
+                    Comprar
+                    </button>
+
+                    <!-- Modal -->
+                  <div class="modal fade" id="carbonada" tabindex="-1" role="dialog" aria-labelledby="carbonada aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="carbonada">Carbonada</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Correo</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Cantidad</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                    </div>
+                      </div>
+                      </div>
+                   </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+     
+
+   </div>
+   <div class="row">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm mt-3 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/lecheasada.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Leche Asada</h5>
+                    <p class="card-text">$ 1.000</p>
+                    <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-default border solid" data-toggle="modal" data-target="#lecheasada">
+                    Comprar
+                    </button>
+
+                    <!-- Modal -->
+                  <div class="modal fade" id="lecheasada" tabindex="-1" role="dialog" aria-labelledby="lecheasada" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="locos">Leche Asada</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Correo</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Cantidad</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                    </div>
+                      </div>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm mt-3 text-center">
+              <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                      <img src="images/pasteldepapas.jpg" width="25px" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel de Papas</h5>
+                        <p class="card-text">$ 12.990</p>
+
+                          
+                        <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pasteldepapas">
+                    Comprar
+                    </button>
+
+                     <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="pasteldepapas aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="pasteldepapas">Pastel de Papas</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                          ...
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                      </div>
+                      </div>
+                   </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mt-3 text-center">
+              <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                      <img src="images/tomatican.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tomatican</h5>
+                        <p class="card-text">$ 4.990</p>
+                        <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#tomatican">
+                    Comprar
+                    </button>
+
+                     <!-- Modal -->
+                  <div class="modal fade" id="tomatican" tabindex="-1" role="dialog" aria-labelledby="tomatican" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                      <h5 class="modal-title" id="tomatican">Tomatican</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                      </div>
+                      <div class="modal-body">
+                          ...
+                      </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                      </div>
+                      </div>
+                   </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+   </div>
+     
+      <!--banner descuento-->
+      <div class="row">
+        <div class="container-fluid">
+        <div class="col-xl-12 ml-5 mt-3" widht="100%">
+            <img src="images/banner2.jpg">
+        </div>
+        </div>
+        </div>
+     <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 bg-light">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left bg-light">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-0 mt-3 ml-2">
+
+        <!-- Content -->
+        <h5 class="text-uppercase text-danger">El Chiflón del Diablo</h5>
+        <p><img src="images/logos.png" alt=""></p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase text-danger">Síguenos en redes sociales</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="youtube.com"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="#!">
+              Miguel Claro 337Providencia, Región Metropolitana</a>
+          </li>
+          
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  
+
+</footer>
+<!-- Footer -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="lasmaspulentas.com">Esther & Ivette </a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
